@@ -1,9 +1,8 @@
 FROM rocker/rstudio:4.5.1
 # Source https://github.com/davetang/learning_docker/blob/main/rstudio/Dockerfile
 
-org.opencontainers.image.source = "https://github.com/devopsmariocom/LTxDB-RStudio"
-
-LABEL MAINTAINER="MARIO VEJLUPEK"
+LABEL org.opencontainers.image.source="https://github.com/devopsmariocom/LTxDB-RStudio"
+LABEL org.opencontainers.image.authors="DevOpsMario"
 
 RUN apt-get clean all && \
     apt-get update && \
