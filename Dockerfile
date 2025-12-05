@@ -1,5 +1,5 @@
-FROM rocker/rstudio:4.5.1
-# Source https://github.com/davetang/learning_docker/blob/main/rstudio/Dockerfile
+FROM docker.io/rocker/rstudio:4.5.1
+# Source https://github.com/davetang/learning_docker/blob/main/rstudio/Dockerfile From https://github.com/rocker-org/rocker-versioned2/blob/master/dockerfiles/rstudio_4.5.2.Dockerfile
 
 LABEL org.opencontainers.image.source="https://github.com/devopsmariocom/LTxDB-RStudio"
 LABEL org.opencontainers.image.authors="DevOpsMario"
