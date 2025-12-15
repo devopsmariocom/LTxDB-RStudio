@@ -1,0 +1,9 @@
+services:
+  rstudio:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: rstudio:local
+    ports:
+      - "8787:8787"
+
